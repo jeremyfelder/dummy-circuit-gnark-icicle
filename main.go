@@ -60,4 +60,14 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
+
+	proof, err := groth16.Prove(ccs, pk, witness)
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	err = groth16.Verify(proof, vk, pubW)
+	if err != nil {
+		fmt.Println(err)
+	}
 }

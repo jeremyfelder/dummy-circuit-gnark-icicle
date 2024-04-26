@@ -27,4 +27,4 @@ require (
 	rsc.io/tmplfunc v0.0.3 // indirect
 )
 
-replace github.com/consensys/gnark v0.10.0 => github.com/ingonyama-zk/gnark v0.0.0-20240425142053-d9713f8ebf29
+replace github.com/consensys/gnark v0.10.0 => github.com/ingonyama-zk/gnark v0.0.0-20240426051713-ec3c98052a00
